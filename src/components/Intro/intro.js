@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css';
-import bg from '../../assets/RanitaPortfolio.jpeg'
+import bg from '../../assets/RanitaPortfolio.png'
 import { Link } from 'react-scroll';
 
 const intro = () => {
@@ -10,7 +10,7 @@ const intro = () => {
         <div className='introContent'>
             <span className='hello'>Hello</span>
             <span className='introText'>I'm <span className='introName'>Ranita</span> <br/>Frontend Developer</span>
-            <p className='introPara'>I am a skilled web designer with experience in creating visually appealing and user friendly websites</p>
+            <p className='introPara'>I am a skilled web designer with experience in creating <br/> visually appealing and user friendly websites</p>
             <Link><button className='btn'><img src='' alt='button'/>Hire Me</button></Link>
         </div>
         
