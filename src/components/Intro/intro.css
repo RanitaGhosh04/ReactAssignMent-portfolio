@@ -34,7 +34,7 @@
 }
 
 .introName{
-    color: yellow;
+    color: blueviolet;
 }
 
 .introPara{
@@ -49,16 +49,14 @@
     padding: 0.75rem 1rem;
     border-radius: 2rem;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
 }
 
 .btnImg{
-    object-fit: cover;
-    margin: 0 0.25rem;
-    height: 1 rem;
-}
-
-@media screen and (max-width:840px){
-    .bg{
-        /* right: -40px; */
-    }
+    object-fit: cover; 
+    margin: 0 0.25rem; 
+    height: 1.9rem;
 }

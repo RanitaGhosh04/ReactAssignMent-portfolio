@@ -25,9 +25,9 @@
 }
 
 .desktopMenuListItem:hover{
-    color: yellow;
+    color: blueviolet;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid blueviolet;
 }
 .desktopMenuBtn{
     background: white;
@@ -41,8 +41,8 @@
 }
 .desktopMenuImg{
     object-fit: cover;
-    height: 1 rem;
-    width: 1 rem;
-    margin: 1 rem;
+    height: 3rem;
+    width: 3rem;
+    /* margin: 1rem; */
 }
 
